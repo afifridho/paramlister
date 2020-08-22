@@ -9,3 +9,7 @@ repos:
     rev: 19.3b0
     hooks:
     -   id: black
+-   repo: https://github.com/awslabs/git-secrets
+    rev: master
+    hooks:
+    -   id: git-secrets
